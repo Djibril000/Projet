@@ -1,0 +1,74 @@
+footer {
+  background-color: rgb(93, 154, 190);    
+  color: white;
+  padding: 10px;
+}
+
+ h1{
+  text-decoration:red underline;
+  text-align: center;
+  letter-spacing: 4px;
+  word-spacing: 4px;
+ }
+
+img{
+    width: 200px;
+    height: 200px;
+    margin: 100px;
+}
+
+nav ul li{
+    list-style-type: none;
+   display: inline-block;
+   padding: 10px;
+    }
+   .header{
+     background-color: rgb(93, 154, 190);
+     height: 60 px;
+     padding-top: 0;
+   }
+   ul li a{
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     color: rgb(241, 235, 235);
+     letter-spacing: 0,1rem;
+   }
+   
+   .menu li a{
+   font-weight:1500px;
+   letter-spacing: 10px;
+  text-decoration: none;      /* Sert à souligner les éléments de nav */
+   }
+   .menu li {
+    float: left;           /*Sert à déplacer la barre de recherche                   */
+     padding: 40px;
+   }
+    form{
+     padding: 10px;
+     text-align: right;       /*  Sert aussi à déplacer la barre de recherche*/
+    }
+    input{
+     font-size: 14px;             /*sert à modifier les dimensions de la barre de recherche*/
+    }
+     
+    #oûlaa{
+      display: flex;
+       justify-content: center;
+    }
+
+    #Thaaniya{
+      display: flex;
+       justify-content: center;
+    }
+
+    #Thalaatha{
+      display: flex;
+       justify-content: center;
+    }
+
+  
+
+ 
+
+
+
+
