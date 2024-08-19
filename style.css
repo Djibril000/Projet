@@ -1,85 +1,169 @@
 footer {
-  background-color: rgb(93, 154, 190);    
+  background-color: rgb(11, 14, 16);    
   color: white;
   padding: 10px;
 }
 
+body{
+  background-color: beige;
+}
+
  h1{
-  text-decoration:red underline;
   text-align: center;
   letter-spacing: 4px;
   word-spacing: 4px;
+  background-color: rgb(255, 255, 255);
  }
 
 img{
-    width: 200px;
-    height: 200px;
-    padding-left: 75px;
+    width: 150px;
+    height: 150px;
+    margin-left: 80px;
     justify-content:space-around ;
+    box-shadow: 0 30px 25px gray;
 }
 
 nav ul li{
-    list-style-type: none;
    display: inline-block;
    padding: 10px;
+   padding-bottom: 30;
+   padding-right:50px;
+   padding-left:50px;
+   font-size: larger;
     }
+
    .header{
-     background-color: rgb(93, 154, 190);
-     height: 60 px;
-     padding-top: 0;
+     background-color: rgb(245, 165, 5);
+     height: 30 px;
+     text-align: left;
+     display: flex;
    }
+
    ul li a{
    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
      color: rgb(241, 235, 235);
-     letter-spacing: 0,1rem;
+   text-decoration: none;
    }
    
    .menu li a{
-   font-weight:1500px;
-   letter-spacing: 10px;
-  text-decoration: none;      /* Sert à souligner les éléments de nav */
+   letter-spacing: 10px;    
+   justify-content: space-between 50px;                                                     /* Sert à souligner les éléments de nav */
    }
+
    .menu li {
     float: left;           /*Sert à déplacer la barre de recherche                   */
-     padding: 40px;
+     padding:10px;
+     padding-right: 40px;
    }
     form{
-     padding: 10px;
-     text-align: right;       /*  Sert aussi à déplacer la barre de recherche*/
+     padding: 24px;
+     text-align: right; 
+     padding-bottom: 10px;
+     padding-left: 350px;                                 /*  Sert aussi à déplacer la barre de recherche*/
     }
     input{
-     font-size: 14px;             /*sert à modifier les dimensions de la barre de recherche*/
+     font-size: 16px;             /*sert à modifier les dimensions de la barre de recherche*/
     }
      
    
     #First{
+      margin-top: 70px;
+      margin-bottom: 50px;
       display: flex;
-       justify-content: center;
+      justify-content: center;
+      justify-content: space-around;
     }
 
     #Second{
       margin-top: 70px;
+      margin-bottom: 50px;
       display: flex;
-       justify-content: center;
+      justify-content: center;
+      justify-content: space-around;
+     
     }
 
     #Third{
       margin-top: 70px;
       margin-bottom: 50px;
       display: flex;
-       justify-content: center;
+      justify-content: center;
+      justify-content: space-around;
     }
 
+    #fourth{
+      margin-top: 70px;
+      margin-bottom: 50px;
+      display: flex;
+      justify-content: center;
+      justify-content: space-around;
+     
+    }
+
+    #Fifth{
+      margin-top: 70px;
+      margin-bottom: 50px;
+      display: flex;
+      justify-content: center;
+      justify-content: space-around;
+    }
+
+    #sixth{
+      margin-top: 70px;
+      margin-bottom: 50px;
+      display: flex;
+      justify-content: center;
+      justify-content: space-around;
+     
+    }
+
+    #seventh{
+      margin-top: 70px;
+      margin-bottom: 50px;
+      display: flex;
+      justify-content: center;
+      justify-content: space-around;
+    }
+
+    #Eighth{
+      margin-top: 70px;
+      margin-bottom: 50px;
+      display: flex;
+      justify-content: center;
+      justify-content: space-around;
+    }
+
+    #Nineth{
+      margin-top: 70px;
+      margin-bottom: 50px;
+      display: flex;
+      justify-content: center;
+      justify-content: space-around;
+    }
+
+    #Tenth{
+      margin-top: 70px;
+      margin-bottom: 50px;
+      display: flex;
+      justify-content: center;
+      justify-content: space-around;
+    }
+
+
+      
     h2{
-      padding-left: 100px;
+      padding-left: 50px;
     }
   h3{
-    padding-left: 100px;
+    padding-left: 50px;
+  }
+
+  h4{
+    font-size: larger;
   }
 
  span{
-  padding-left: 5px;
-
+  padding-left: 5px
  }
 
  button{
@@ -87,4 +171,8 @@ nav ul li{
 
  }
 
-
+ .supp{
+  margin-left: 20px;
+  list-style-type: none;
+  margin-top: 5px;
+}
